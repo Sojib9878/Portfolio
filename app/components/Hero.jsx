@@ -11,13 +11,13 @@ function Hero() {
   return (
     <section id="hero">
       <div className="w-full bg-[#20242D] py-20">
-        <div className="container px-4 md:px-[4rem] xl:px-[5rem]">
+        <div className=" container mx-auto px-4 md:px-[4rem] xl:px-[5rem]">
           <div className="mt-5 flex flex-col-reverse md:flex-row md:items-center md:gap-4 xl:mt-20 xl:gap-40">
             <div className="text-center text-white md:text-start">
               <h3 className="text-[1.2rem] xl:text-[1.6rem] font-sans font-bold">
                 Hello,It's Me
               </h3>
-              <h1 className="text-[2rem] xl:text-[2.5rem] font-bold tracking-[1px] font-sans">
+              <h1 className="text-[2rem] xl:text-[3rem] font-bold tracking-[1px] font-sans">
                 Merajul Islam
                 <span className="text-[1.8rem] xl:text-[2.1rem] text-[#01eefe] ml-1">
                   {" "}
@@ -57,7 +57,7 @@ function Hero() {
               <div className="mt-4 flex justify-center md:justify-start xl:mt-8">
                 <button
                   type="button"
-                  className="text-black font-semibold bg-[#01eefe] py-2 px-6 shadow-md shadow-[#01eefe] rounded-full"
+                  className="text-black font-semibold bg-[#01eefe]  py-2 px-6 shadow-md shadow-[#01eefe] rounded-full hover:shadow-[#0fbcc9]  hover:bg-[#0fbcc9] hover:text-white transition-all duration-300"
                 >
                   Download CV
                 </button>
@@ -70,7 +70,7 @@ function Hero() {
                   alt="pic"
                   height={800}
                   width={800}
-                  className="w-full drop-shadow-3xl "
+                  className="w-full drop-shadow-3xl xl:-mt-10 "
                 />
               </div>
             </div>

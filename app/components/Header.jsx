@@ -82,7 +82,7 @@ export default function Header() {
       >
         <Link
          activeClass="active"
-         to="service"
+         to="services"
          spy={true}
          smooth={true}
          offset={-70} // Adjust this offset based on your layout
@@ -148,7 +148,7 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className="fixed top-0 bg-[#20242D] shadow-lg z-10 h-max max-w-full rounded-none py-1 container px-4 lg:px-[2.5rem]  xl:px-[5rem]"
+      className="fixed top-0 bg-[#20242D] shadow-lg z-10 h-max max-w-full rounded-none py-1 container mx-auto px-4 lg:px-[2.5rem] xl:px-[5rem]"
     >
       <div className="flex items-center container mx-auto justify-between text-blue-gray-900">
         <Typography
@@ -164,7 +164,7 @@ export default function Header() {
            className="w-[5.2rem] md:w-28 lg:w-[8rem]"
            /> */}
            <div className="text-center">
-            <h3 className="font-bold text-[1.2rem] md:text-[1.9rem]">Sojib <span className="text-[#01eefe]">Islam</span></h3>
+            <h3 className="font-bold text-[1.2rem] md:text-[1.9rem]">Sojib<span className="text-[#01eefe]">9878</span></h3>
             {/* <p className="mt-[-4px] text-[0.6rem] text-[#01eefe] lg:text-[0.8rem] lg:mt-[-5px]">Community</p> */}
            </div>
         </Typography>

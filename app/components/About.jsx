@@ -2,21 +2,22 @@ import React from "react";
 import Image from "next/image";
 import img_2 from "../img/hero_img.png";
 
+
 function About() {
   return (
     <section id="about">
       <div className="w-full bg-[#323846] py-20">
-        <div className="container px-4 xl:px-[5rem]">
+        <div className=" container mx-auto px-4 md:px-[4rem] xl:px-[5rem]">
           <div className="flex flex-col md:flex-row-reverse md:justify-between md:gap-10 md:items-center">
             <div className=" py-5 text-center text-white leading-tight md:text-start ">
-              <h2 className="text-[1.9rem] font-bold">About <span className="text-[#01eefe]">Me</span>
+              <h2 className="text-[1.9rem] font-bold xl:text-[2.4rem]">About <span className="text-[#01eefe]">Me</span>
               </h2>
-              <h3 className="text-[1.3rem] font-bold">Fullstack Developer!</h3>
+              <h3 className="text-[1.3rem] font-bold xl:text-[1.8rem]">Fullstack Developer!</h3>
               <p className="text-[0.8rem] py-4">Loeh eliroiu asnd eoiuad sdiasdoiu iou a eroidu boiys seoi boyb apdjh eoeiudoyasduha.eoriiuyy sd eryhsouidy fasd eir beoiyuf ba ierfoey asoeiyey aoiyidyhoey.Loeh eliroiu asnd eoiuad sdiasdoiu iou a eroidu boiys seoi boyb apdjh eoeiudoyasduha.eoriiuyy sd eryhsouidy fasd eir beoiyuf ba ierfoey asoeiyey aoiyidyhoey.Loeh eliroiu asnd eoiuad sdiasdoiu iou a eroidu boiys seoi boyb apdjh eoeiudoyasduha.eoriiuyy sd eryhsouidy fasd eir beoiyuf ba ierfoey asoeiyey aoiyidyhoey.</p>
               <div className=" flex justify-center md:justify-start xl:mt-8">
                 <button
                   type="button"
-                  className="text-black font-semibold bg-[#01eefe] py-2 px-6 shadow-md shadow-[#01eefe] rounded-full"
+                  className="text-black font-semibold bg-[#01eefe] py-2 px-6 shadow-md shadow-[#01eefe] rounded-full hover:shadow-[#0fbcc9]  hover:bg-[#0fbcc9] hover:text-white transition-all duration-300"
                 >
                   Read More
                 </button>
