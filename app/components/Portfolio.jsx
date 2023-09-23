@@ -110,7 +110,7 @@ function Portfolio() {
 
             <div className=" relative bg-cover overflow-hidden bg-no-repeat rounded-[20px]">
               <Image
-                src={portfolio_img_6}
+                src={portfolio_img_2}
                 alt="portfolio-img"
                 height={400}
                 width={400}

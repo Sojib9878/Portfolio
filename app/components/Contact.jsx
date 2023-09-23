@@ -28,7 +28,7 @@ function Contact() {
                 </div>
                 <div>
                   <input
-                    type="text"
+                    type="email"
                     placeholder="Email"
                     className="px-5 p-2 h-[3.5rem] w-full bg-[#323846] rounded-[8px] text-white  focus:outline-none"
                   />
@@ -109,7 +109,7 @@ function Contact() {
                 href={"#"}
                 className="text-[#01eefe] font-semibold hover:underline hover:underline-offset-2"
               >
-                Shanto Sarkar 
+                Sojib Islam 
               </Link>
             </span>
              . All rights are reserved.
